@@ -1,14 +1,14 @@
+const head = require('./config/head.js')
+const nav=require('./config/themeConfig/nav.js')
 module.exports = {
-    title: '黄困困',
+    title: '困困‘s BLOG',
     description: '点滴记录',
     base:'/studyFile/',
     themeConfig: {
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://google.com' },
-          ],
-          markdown: {
+        logo:'/img/logo.png',
+        lastUpdated: 'Last Updated',//必填：文章显示最新修改时间
+        nav,
+        markdown: {
             extendMarkdown: md => {
               md.use(require("markdown-it-disable-url-encode"));
             }
@@ -22,8 +22,11 @@ module.exports = {
                 sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
                     '/vuepress/vuepress_1',
+                    '/vuepress/vuepress_2',
                 ]
             }
-        ]
-      }
+        ],
+
+      },
+      head,
   }
