@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vuepress logo设置 | 困困‘s BLOG</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/studyFile/img/logo.png">
+    <meta name="description" content="点滴记录">
+    <meta name="keywords" content="前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown">
+    <meta name="theme-color" content="#11a8cd">
+    
+    <link rel="preload" href="/studyFile/assets/css/0.styles.d4475c9e.css" as="style"><link rel="preload" href="/studyFile/assets/js/app.b2d5e42a.js" as="script"><link rel="preload" href="/studyFile/assets/js/2.d83f5226.js" as="script"><link rel="preload" href="/studyFile/assets/js/7.fc80bfc9.js" as="script"><link rel="prefetch" href="/studyFile/assets/js/3.cff59cbf.js"><link rel="prefetch" href="/studyFile/assets/js/4.6da32939.js"><link rel="prefetch" href="/studyFile/assets/js/5.39733387.js"><link rel="prefetch" href="/studyFile/assets/js/6.697413b9.js"><link rel="prefetch" href="/studyFile/assets/js/8.e1e46528.js"><link rel="prefetch" href="/studyFile/assets/js/9.6d8b3b41.js">
+    <link rel="stylesheet" href="/studyFile/assets/css/0.styles.d4475c9e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/studyFile/" class="home-link router-link-active"><img src="/studyFile/img/logo.png" alt="困困‘s BLOG" class="logo"> <span class="site-name can-hide">困困‘s BLOG</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/studyFile/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vuepress" class="dropdown-title"><span class="title">vuepress</span> <span class="arrow down"></span></button> <button type="button" aria-label="vuepress" class="mobile-dropdown-title"><span class="title">vuepress</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          vuepress笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/studyFile/vuepress/vuepress_1/" class="nav-link">
+  简单搭建
+</a></li><li class="dropdown-subitem"><a href="/studyFile/vuepress/vuepress_2/" class="nav-link">
+  logo设置
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/studyFile/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vuepress" class="dropdown-title"><span class="title">vuepress</span> <span class="arrow down"></span></button> <button type="button" aria-label="vuepress" class="mobile-dropdown-title"><span class="title">vuepress</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          vuepress笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/studyFile/vuepress/vuepress_1/" class="nav-link">
+  简单搭建
+</a></li><li class="dropdown-subitem"><a href="/studyFile/vuepress/vuepress_2/" class="nav-link">
+  logo设置
+</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/studyFile/" aria-current="page" class="sidebar-link">Home</a></li><li><section class="sidebar-group depth-0"><a href="/studyFile/vuepress/" class="sidebar-heading clickable router-link-active open"><span>VUEPRESS</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/studyFile/vuepress/vuepress_1.html" class="sidebar-link">vuepress 简单搭建</a></li><li><a href="/studyFile/vuepress/vuepress_2.html" aria-current="page" class="active sidebar-link">vuepress logo设置</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vuepress-logo设置"><a href="#vuepress-logo设置" class="header-anchor">#</a> vuepress logo设置</h1> <p>目录如下：</p> <img src="/studyFile/assets/img/logo_setting.da09b258.jpg" alt="image-logo" style="zoom:33%;"> <div class="language- extra-class"><pre class="language-text"><code> 在config.js内引入图片资源
+ module.exports = {
+ themeConfig: {
+        logo:'/logo.png'
+        }
+  }
+</code></pre></div><ul><li>或者引入网络图片</li> <li>或者新建一个文件夹将静态资源文件装起来</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2/1/2021, 6:47:31 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/studyFile/vuepress/vuepress_1.html" class="prev">
+        vuepress 简单搭建
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/studyFile/assets/js/app.b2d5e42a.js" defer></script><script src="/studyFile/assets/js/2.d83f5226.js" defer></script><script src="/studyFile/assets/js/7.fc80bfc9.js" defer></script>
+  </body>
+</html>
