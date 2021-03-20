@@ -20,7 +20,7 @@ var isSupportLoading = 'loading' in new Image();
 或者：
 var isSupportLoading = 'loading' in HTMLImageElement.prototype;
 ```
-![img](https://cdn.nlark.com/yuque/0/2020/png/1338123/1607589098029-fe9a97c1-24f4-4f22-bb57-a339e9aa2c5b.png)
+![image](https://i.loli.net/2021/03/20/f7ilxckwJ3mDqFS.png)
 在接口正常返回数据的情况下，从图片看el-image会加载两张，而原生img标签则加载一张，测试同一张图片原生img加载更快，且无出现加载失败的情况。
 
 
